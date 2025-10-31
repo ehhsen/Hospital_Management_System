@@ -126,7 +126,7 @@ int main(int argc, char* argv[]) {
 	///////////////// check help///////////////////
 	if (std::string(argv[1]) == "--help") {
 		display_help();
-		return 1;
+		return 0;
 	}
 	///////////////////////////////////////////////////////
 	 // number of queue check
@@ -188,3 +188,4 @@ int main(int argc, char* argv[]) {
 	delete[] ACTUAL_QUEUES;
 	return 0;
 }
+
